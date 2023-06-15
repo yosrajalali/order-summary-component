@@ -2,12 +2,12 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![](./screenshot.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://yosrajalali.github.io/Order-summary-card/](https://yosrajalali.github.io/Order-summary-card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-Q6z4HZMv-0](https://www.frontendmentor.io/solutions/order-summary-component-Q6z4HZMv-0)
+- Live Site URL: [https://yosrajalali.github.io/order-summary-component/](https://yosrajalali.github.io/order-summary-component/)
 
 ## Table of contents
 
