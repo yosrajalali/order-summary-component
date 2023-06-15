@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* ### Primary */
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  /* ### Neutral */
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--Pale-blue);
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  width: 20.625rem;
+  height: 35.625rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0px 4px 35px 5px rgba(198, 207, 246, 0.75);
+  -webkit-box-shadow: 0px 4px 35px 5px rgba(198, 207, 246, 0.75);
+  -moz-box-shadow: 0px 4px 35px 5px rgba(198, 207, 246, 0.75);
+}
+
+.music__img {
+  width: 100%;
+  display: block;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title,
+.annual {
+  color: var(--Dark-blue);
+}
+
+.annual {
+  font-weight: 900;
+  line-height: 1.7;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--Very-pale-blue);
+  border-radius: 0.6rem;
+  height: 5.5rem;
+  padding: 0 1rem;
+}
+
+.inner__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.text {
+  margin: 1rem 0;
+  line-height: 1.8;
+}
+
+p,
+.cancel__btn {
+  color: var(--Desaturated-blue);
+}
+
+.cancel__btn {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.change {
+  color: var(--Bright-blue);
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.payment__btn {
+  width: 100%;
+  border: none;
+  background: var(--Bright-blue);
+  height: 3rem;
+  border-radius: 0.6rem;
+  margin: 1.3rem 0;
+  color: var(--Very-pale-blue);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px -3px var(--Desaturated-blue);
+}
+
+.payment__btn:hover,
+.change:hover {
+  opacity: 0.7;
+  transition: all ease-in 0.1s;
+}
+
+.cancel__btn:hover {
+  color: var(--Dark-blue);
+  transition: all ease-in 0.1s;
+}
+
+@media only screen and (min-width: 54em) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .container {
+    width: 28.125rem;
+    min-height: 43.625rem;
+  }
+  .content {
+    padding: 3rem;
+  }
+  .text,
+  .title {
+    margin-bottom: 1.7rem;
+  }
+  .payment__btn {
+    margin-bottom: 2rem;
+  }
+  .change {
+    font-size: 1rem;
+  }
+}
+
+/* height: 569 px width: 329 px */
+
+/* height: 698 px width: 449 px */
