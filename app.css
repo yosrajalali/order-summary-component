@@ -88,6 +88,8 @@ p,
 .cancel__btn {
   font-weight: 900;
   cursor: pointer;
+  border: none;
+  background: none;
 }
 
 .change {
@@ -147,6 +149,3 @@ p,
   }
 }
 
-/* height: 569 px width: 329 px */
-
-/* height: 698 px width: 449 px */
